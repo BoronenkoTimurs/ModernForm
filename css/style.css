@@ -1,0 +1,103 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background: url(/images/background.jpg) no-repeat center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+form{
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+h1{
+    font-size: 3rem;
+}
+span{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.form__box{
+    color: white;
+    max-height: 100vh;
+    max-width: 100vw;
+    width: 30vw;
+    padding: 0 1rem;
+    text-align: center;
+    transition: all .5s ease;
+}
+.form__box:hover{
+    border: 1px solid transparent;
+    border-radius: 30px;
+    box-shadow: 0 0 5rem rgba(255, 255, 255, 0.2);
+    transform: translateY(-10px);
+}
+.form__box .input{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+    margin-bottom: 2rem;
+    outline: none;
+    padding: 1rem 3rem;
+    width: 30rem;
+}
+.username:hover,
+.password:hover{
+    color: black;
+    transform: scale(1.2);
+}
+::-webkit-input-placeholder{
+    color: white;
+}
+.form__field i{
+    position: relative;
+    left: 5%;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.submit{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    margin-left: 1rem;
+    outline: none;
+    padding: 1.2rem 0;
+    width: 30rem;
+}
+.submit:hover{
+    transform: scale(1.2);
+    color: white;
+}
+.buttom{
+    align-items: end;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    justify-content: space-between;
+    padding: 4rem 1rem;
+}
+.buttom a{
+    text-decoration: none;
+    color: white;
+}
+.buttom a:hover,
+.buttom__left:hover{
+    transform: scale(1.2);
+}
