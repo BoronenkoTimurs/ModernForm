@@ -41,6 +41,7 @@ span{
     border-radius: 30px;
     box-shadow: 0 0 5rem rgba(255, 255, 255, 0.2);
     transform: translateY(-10px);
+    
 }
 .form__box .input{
     background: rgba(255, 255, 255, 0.1);
@@ -58,6 +59,7 @@ span{
 .password:hover{
     color: black;
     transform: scale(1.2);
+    transition: all .5s ease;
 }
 ::-webkit-input-placeholder{
     color: white;
@@ -84,6 +86,7 @@ span{
 .submit:hover{
     transform: scale(1.2);
     color: white;
+    transition: all .5s ease;
 }
 .buttom{
     align-items: end;
@@ -100,4 +103,5 @@ span{
 .buttom a:hover,
 .buttom__left:hover{
     transform: scale(1.2);
+    transition: all .5s ease;
 }
