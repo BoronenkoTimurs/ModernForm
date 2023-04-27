@@ -82,7 +82,7 @@ h1{
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.1);
     border: 0;
-    width: clamp(20rem,50%,50vw);
+    width: clamp(20rem,10vw,30rem);
     height: clamp(20rem,50%,100vh);
     color: white;
     font-size: clamp(1.5rem,2vw,2.5rem);
