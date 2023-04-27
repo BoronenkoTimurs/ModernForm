@@ -4,42 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+    <title>PlayGround</title>
 
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
-    <form action="https://formspree.io/f/xdovyyeq" method="POST">
-        <div class="form__container" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
-            <div class="form__box" >
-                <span>Have an account?</span>
-                <h1>Login</h1>
-                <div class="form__field username">
-                    <i class="ri-user-line"></i>
-                    <input type="text" class="input" placeholder="Username" name="email" required>
-            
-                </div>
-                <div class="form__field password">
-                    <i class="ri-lock-2-line"></i>
-                    <input type="password" class="input" placeholder="Password" name="password" required>
-                </div>
-                <div class="form__field login">
-                    <input type="submit" class="submit" value="Login">
-                </div>
-                <div class=" buttom">
-                    <div class="buttom__left">
-                        <input type="checkbox" class="check">
-                        <label>Remember me</label>
+    <form action="https://formspree.io/f/xdovyyeq" method="POST" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">         
+                <div class="form-box" >
+                    <h1>Join us!</h1>
+                    <div class="input-group">
+                        <input type="text" class="input" placeholder="Username" required>
+                        <i class="ri-user-line username__icon"></i>
                     </div>
-                    <a href="#">Forgot password?</a>
+                    <div class="input-group">
+                        <input type="password" class="input" placeholder="Password" required>
+                        <i class="ri-lock-2-line password__icon"></i>
+                    </div>
+                    <div class="btn submit">
+                        <button type="submit">Log in</button>
+                    </div>
+                    <div class="input-group buttom">
+                        <span><input type="checkbox">Remember me</span>
+                        <a href="#">Forget password?</a>
+                    </div>
                 </div>
-            </div>
-                </div>
-        </form>
+    </form>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
